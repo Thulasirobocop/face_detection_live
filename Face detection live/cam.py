@@ -6,7 +6,7 @@ cascade=cv2.CascadeClassifier('D:\\PROJECT\\Face detection live\\haarcascade_fro
 # define a video capture object 
 vid = cv2.VideoCapture(0)
 vid_cod = cv2.VideoWriter_fourcc(*'XVID')
-output = cv2.VideoWriter("C:\\Users\\sthul\\Downloads\\cam_video.mp4", vid_cod, 20.0, (640,480))
+output = cv2.VideoWriter("D:\\PROJECT\\Face detection live\\cam_video.mp4", vid_cod, 20.0, (640,480))
 while(True): 
       
     # Capture the video frame 
